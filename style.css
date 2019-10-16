@@ -1,0 +1,387 @@
+/* body{
+    margin:0;
+}
+ul{
+    margin:0;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    background-color: gray;
+}
+li:hover{
+    background-color: black;
+}
+a{
+    padding:0px 20px 0px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.submenu{
+    display: none;
+}
+.deroulant:hover .submenu{
+    display: block;
+    position: absolute;
+}
+.submenu li {
+margin-left:0;
+} */
+
+/* les grid
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr 1fr 10fr 2fr;
+    grid-template-areas: "header header"
+                            "sidebar nav"
+                            "sidebar corps"
+                            "footer footer";
+}
+.container >*{
+    padding: 20px 0 0 40px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+header{
+    grid-area: header;
+    background-color: antiquewhite
+}
+nav{
+    grid-area: nav;
+    background-color: aqua;
+}
+aside{
+    grid-area: sidebar;
+    background-color: aquamarine;
+}
+main{
+    grid-area: corps;
+    background-color: blue;
+}
+footer{
+    grid-area: footer;
+    background-color: brown;
+} */
+
+
+/*animation*/
+/* body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+body >*{
+    margin: 50px;
+}
+button{
+    display: block;
+    width: 200px;
+    height: 45px;
+    background-color: aqua;
+    border: 3px solid red;
+    font-size: 1.5rem;
+    color: blueviolet;
+    transition: all ease 1.5s;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.anim {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    animation: monanim 2s ease-in infinite;
+} */
+/* 
+@keyframes monanim{
+    0%{
+        transform: scale(0)
+        translateX(-100px)
+    }
+    
+    100%{
+        transform: scale(15)
+         translateX(400px)
+    }
+} */
+
+
+
+
+/* EXO SLICING 
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.wrappper{
+    width: 960px;
+}
+
+.nav{
+    width: 60%;
+    min-width: 400px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40%;
+}
+
+section{
+    background-color: whitesmoke;
+    margin-top: 15px
+}
+
+a{
+    text-decoration: none;
+    color: yellow
+}
+
+nav{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.trio div {
+    width: 290px;
+}
+
+.trio{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.box{
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.trois{
+    background-color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin:0 20px 0 20px;
+}
+
+button{
+    background-color: rgb(199, 199, 7);
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 15%;
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;  
+}
+
+.btn{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color: yellowgreen;
+}
+
+p{
+    padding: 25px;
+}
+
+.bas{
+    display: flex;
+}
+
+.menuBas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuBas ul li a {
+    color:yellowgreen;
+}
+
+.menuBas ul {
+    font-weight: bold;
+    color: rgba(217, 255, 0, 0.712);
+    padding-left: 0;
+    list-style-type: none;
+    justify-content: space-around;
+} */
+
+
+/* EXO AFTER BEFFORE */
+/* body{
+    background: rgb(0, 0, 0);
+    margin: 0;
+}
+div{
+    padding: 50px;
+    background: rgb(104, 104, 12);
+    border-radius: 5px;;
+    width: 960px;
+    margin: 50px auto;
+}
+p{
+    font-size: 1.2em;
+}
+h1{
+    text-align: center;
+    display: inline;
+    color: aquamarine;
+    font-size: 2em;
+    position: relative;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    height: 3px;
+    transition: all .1s ease-in-out;
+    transform: scaleX(0);
+    visibility: hidden;
+}
+h1:hover::before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+.quote{
+    color: rgb(85, 22, 144);
+}
+.quote::before{
+    content: "<";
+    color: blue;
+}
+.quote::after{
+    content: ">";
+    color: rgb(0, 0, 0);
+}
+ */
+
+/* input{
+    margin-left: 15px;
+}
+textarea{
+    resize: none;
+} */
+
+
+/* EXO SLICING */
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 150px 0 1fr;
+    grid-template-rows: 1fr 50px 2fr 1fr;
+    grid-template-areas: "header header header"
+                            "nav nav nav"
+                            "sidebar promo corps"
+                            "footer footer footer";
+}
+.container >*{
+    font-weight: 900;
+    font-size: 2rem;
+}
+header{
+    grid-area: header;
+    background-color: antiquewhite
+}
+nav{
+    grid-area: nav;
+    background-color: aqua;
+}
+aside{
+    grid-area: sidebar;
+    background-color: aquamarine;
+}
+main{
+    grid-area: corps;
+    background-color: blue;
+}
+.promo{
+    grid-area: promo;
+    background-color: rgb(124, 117, 117);
+}
+footer{
+    grid-area: footer;
+    background-color: brown;
+}
+ul{
+    display: flex;
+    font-size: 1rem;
+    list-style-type: none;
+    margin:0;
+    height: 100%;
+    align-items: center;
+    padding-left:0;
+}
+li{
+    padding: 10px;
+    height: 60%;
+    border-right: 1px solid black;
+}
+.promo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    left:-50px;
+    bottom:-100px
+}
+@media screen and (max-width: 768px) {
+    .promo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius:0;
+    left:0;
+    bottom:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+}
+    .container{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 150px 0 1fr;
+        grid-template-rows: 1fr 1fr 50px 2fr 1fr;
+        grid-template-areas: "header header header"
+                                "nav nav nav"
+                                "promo promo promo"
+                                "sidebar corps corps"
+                                "footer footer footer";
+    }
+    
+    ul{
+        display: block;
+    }
+    li{
+        border-top: 1px solid black;
+    }
+    p{
+        margin: 0;
+    }
+  }
